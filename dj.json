@@ -1,0 +1,388 @@
+{
+    "休闲短剧": "libplayer.so",
+    "spider": "./stdlib0.imy;md5;83b66c8fe8d7b6c23a795eb7ec71358b",
+    "sites": [
+        {
+            "api": "./py/星芽短剧.py",
+            "filterable": 1,
+            "key": "py_星芽短剧",
+            "name": "🧞星芽┃短剧",
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "api": "./py/瓜子影视.py",
+            "filterable": 1,
+            "key": "py_偶尔看剧",
+            "name": "🧞偶尔┃看剧",
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "key": "短剧",
+            "name": "🧞哔哩┃短剧",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.309
+            },
+            "ext": {
+                "type": "短剧合集#电影解说#MV#演唱会",
+                "cookie": "http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt",
+                "msg": "124421jh8lk39646pgruC6dATnyTtf6ewyst71opcsJfticyXxWGbU5x4zxzEQ5LWhshM7QSmwiAgf0H4RN8rjjuUPQPPsiTj8Yz48I27L5SoL/Lbg70J558Qnv6Dtdt9BeeyWciQnnqApDLzxuKF+nEHryocRY26k1efEO43zCfP69tVyTyWvQ/MT7q/J7KDiOdwg0CGUc0cPhVc3AiwU6ZXIapEVCaeJ1OkLO2LzfrGsCulTGV9LrN4N8omBYpohl4BgdDhg8SQwEh9MoFXC1M2AqzePjz+itosXK3VQ3Ch4ba88bCsZSAs56JWl570OQ5t3yuPDslC75Y1p4Y9x9OOnztqiDqRbgpaXR5KWKYWfjU9T1H2SXW3uAmq9Z2GQKDrAQT7gB35NJeagOshSRZScjiS3Ss7lf/6iMfs9NInk9DfLj/H/9HCcIDRr1AG/ZGgLLtB/doGr0l/oENwrHwu+kLjzqWcmiAPcaLdbeeK18hxlYJBvXIlfjoWgopvFnm7338rR8k7EwtnU39fRJph5WcuPdvL5ZivGdWO+EYQ47zLhX038Vcju8iF3omFTj5W6D9FEOXryKIMCBgi8G5t+I73iaFCGGzTA=="
+            }
+        },
+        {
+            "key": "沙雕",
+            "name": "🧞沙雕┃动漫",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.309
+            },
+            "ext": {
+                "type": "沙雕综合#沙雕求生#沙雕修仙#沙雕末世#沙雕诡异#完结沙雕#动漫馆",
+                "cookie": "http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt",
+                "msg": "124421jh8lk39646pgruC6dATnyTtf6ewyst71opcsJfticyXxWGbU5x4zxzEQ5LWhshM7QSmwiAgf0H4RN8rjjuUPQPPsiTj8Yz48I27L5SoL/Lbg70J558Qnv6Dtdt9BeeyWciQnnqApDLzxuKF+nEHryocRY26k1efEO43zCfP69tVyTyWvQ/MT7q/J7KDiOdwg0CGUc0cPhVc3AiwU6ZXIapEVCaeJ1OkLO2LzfrGsCulTGV9LrN4N8omBYpohl4BgdDhg8SQwEh9MoFXC1M2AqzePjz+itosXK3VQ3Ch4ba88bCsZSAs56JWl570OQ5t3yuPDslC75Y1p4Y9x9OOnztqiDqRbgpaXR5KWKYWfjU9T1H2SXW3uAmq9Z2GQKDrAQT7gB35NJeagOshSRZScjiS3Ss7lf/6iMfs9NInk9DfLj/H/9HCcIDRr1AG/ZGgLLtB/doGr0l/oENwrHwu+kLjzqWcmiAPcaLdbeeK18hxlYJBvXIlfjoWgopvFnm7338rR8k7EwtnU39fRJph5WcuPdvL5ZivGdWO+EYQ47zLhX038Vcju8iF3omFTj5W6D9FEOXryKIMCBgi8G5t+I73iaFCGGzTA=="
+            }
+        },
+        {
+            "key": "集百短剧",
+            "name": "🧞集百┃沙雕",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/集百短剧.json",
+            "jar": "./stdlib1.imy"
+        },
+        {
+            "key": "河马",
+            "name": "🧞河马┃短剧",
+            "type": 3,
+            "api": "csp_DuanJuHm",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "style": {
+                "type": "rect",
+                "ratio": 1.309
+            },
+            "ext": {
+                "siteUrl": "https://freevideo.zqqds.cn",
+                "msg": "124421jh8lk39646pgruC6dATnyTtf6ewyst71opcsJfticyXxWGbU5x4zxzEQ5LWhshM7QSmwiAgf0H4RN8rjjuUPQPPsiTj8Yz48I27L5SoL/Lbg70J558Qnv6Dtdt9BeeyWciQnnqApDLzxuKF+nEHryocRY26k1efEO43zCfP69tVyTyWvQ/MT7q/J7KDiOdwg0CGUc0cPhVc3AiwU6ZXIapEVCaeJ1OkLO2LzfrGsCulTGV9LrN4N8omBYpohl4BgdDhg8SQwEh9MoFXC1M2AqzePjz+itosXK3VQ3Ch4ba88bCsZSAs56JWl570OQ5t3yuPDslC75Y1p4Y9x9OOnztqiDqRbgpaXR5KWKYWfjU9T1H2SXW3uAmq9Z2GQKDrAQT7gB35NJeagOshSRZScjiS3Ss7lf/6iMfs9NInk9DfLj/H/9HCcIDRr1AG/ZGgLLtB/doGr0l/oENwrHwu+kLjzqWcmiAPcaLdbeeK18hxlYJBvXIlfjoWgopvFnm7338rR8k7EwtnU39fRJph5WcuPdvL5ZivGdWO+EYQ47zLhX038Vcju8iF3omFTj5W6D9FEOXryKIMCBgi8G5t+I73iaFCGGzTA=="
+            }
+        },
+        {
+            "key": "西饭",
+            "name": "🧞西饭┃短剧",
+            "type": 3,
+            "api": "csp_DuanJuXf",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "style": {
+                "type": "rect",
+                "ratio": 1.309
+            },
+            "ext": {
+                "siteUrl": "https://xifan-api-cn.youlishipin.com",
+                "msg": "124421jh8lk39646pgruC6dATnyTtf6ewyst71opcsJfticyXxWGbU5x4zxzEQ5LWhshM7QSmwiAgf0H4RN8rjjuUPQPPsiTj8Yz48I27L5SoL/Lbg70J558Qnv6Dtdt9BeeyWciQnnqApDLzxuKF+nEHryocRY26k1efEO43zCfP69tVyTyWvQ/MT7q/J7KDiOdwg0CGUc0cPhVc3AiwU6ZXIapEVCaeJ1OkLO2LzfrGsCulTGV9LrN4N8omBYpohl4BgdDhg8SQwEh9MoFXC1M2AqzePjz+itosXK3VQ3Ch4ba88bCsZSAs56JWl570OQ5t3yuPDslC75Y1p4Y9x9OOnztqiDqRbgpaXR5KWKYWfjU9T1H2SXW3uAmq9Z2GQKDrAQT7gB35NJeagOshSRZScjiS3Ss7lf/6iMfs9NInk9DfLj/H/9HCcIDRr1AG/ZGgLLtB/doGr0l/oENwrHwu+kLjzqWcmiAPcaLdbeeK18hxlYJBvXIlfjoWgopvFnm7338rR8k7EwtnU39fRJph5WcuPdvL5ZivGdWO+EYQ47zLhX038Vcju8iF3omFTj5W6D9FEOXryKIMCBgi8G5t+I73iaFCGGzTA=="
+            }
+        },
+        {
+            "api": "./py/七猫短剧.py",
+            "filterable": 1,
+            "key": "py_七猫短剧",
+            "name": "🧞七猫┃短剧",
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "api": "./py/甜圈短剧.py",
+            "filterable": 1,
+            "key": "py_甜圈短剧",
+            "name": "🧞甜圈┃短剧",
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "api": "./py/好看短剧.py",
+            "filterable": 1,
+            "key": "py_好看短剧",
+            "name": "🧞好看┃短剧",
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "api": "./py/花生短剧.py",
+            "filterable": 1,
+            "key": "py_花生短剧",
+            "name": "🧞花生┃短剧",
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "api": "./py/喜福短剧.py",
+            "filterable": 1,
+            "key": "py_喜福短剧",
+            "name": "🧞喜福┃短剧",
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "api": "./py/热播短剧.py",
+            "filterable": 1,
+            "key": "py_热播短剧",
+            "name": "🧞热播┃短剧",
+            "quickSearch": 1,
+            "searchable": 1,
+            "type": 3
+        },
+        {
+            "key": "剧王短剧",
+            "name": "🧞剧王┃短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/剧王短剧.json",
+            "jar": "./stdlib1.imy"
+        },
+        {
+            "key": "包子短剧",
+            "name": "🧞包子┃短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/包子短剧.json",
+            "jar": "./stdlib1.imy"
+        },
+        {
+            "key": "短剧TV",
+            "name": "🧞短剧┃TV",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/短剧TV.json",
+            "jar": "./stdlib1.imy"
+        },
+        {
+            "key": "憨塔短剧",
+            "name": "🧞憨塔┃短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/憨塔短剧.json",
+            "jar": "./stdlib1.imy"
+        },
+        {
+            "key": "喵喵短剧",
+            "name": "🧞喵喵┃短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/喵喵短剧.json",
+            "jar": "./stdlib1.imy"
+        },
+        {
+            "key": "cj_旺旺短剧",
+            "name": "🧞旺旺 | 短剧",
+            "type": 1,
+            "api": "https://api.wwzy.tv/api.php/provide/vod/"
+        },
+        {
+            "key": "cj_暴风资源",
+            "name": "🧞暴风┃短剧",
+            "type": 1,
+            "api": "https://bfzyapi.com/api.php/provide/vod",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "categories": [
+                "反转爽文",
+                "穿越年代",
+                "重生民国",
+                "现代言情",
+                "女恋总裁",
+                "都市脑洞",
+                "闪婚离婚",
+                "古装仙侠"
+            ]
+        },
+        {
+            "key": "cj_索尼资源",
+            "name": "🧞索尼┃短剧",
+            "type": 1,
+            "api": "https://suoniapi.com/api.php/provide/vod/",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "categories": [
+                "反转爽剧",
+                "女频恋爱",
+                "脑洞悬疑",
+                "年代穿越",
+                "古装仙侠",
+                "现代都市"
+            ]
+        },
+        {
+            "key": "Local",
+            "name": "🧞本地┃文件",
+            "type": 3,
+            "api": "csp_Local"
+        }
+    ],
+    "lives": [],
+    "doh": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-quer",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "rules": [],
+    "parses": [
+        {
+            "name": "🧞集多解析A",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "🧞集多解析B",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "🧞集多解析C",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url="
+        },
+        {
+            "name": "🧞集多解析D",
+            "type": 0,
+            "url": "https://www.ckplayer.vip/jiexi/?url="
+        }
+    ],
+    "flags": [
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "wasu"
+    ],
+    "ads": [
+        "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd",
+        "mimg.0c1q0l.cn",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "mc.usihnbcq.cn",
+        "mg.g1mm3d.cn",
+        "mscs.svaeuzh.cn",
+        "cnzz.hhttm.top",
+        "tp.vinuxhome.com",
+        "cnzz.mmstat.com",
+        "www.baihuillq.com",
+        "s23.cnzz.com",
+        "z3.cnzz.com",
+        "c.cnzz.com",
+        "stj.v1vo.top",
+        "z12.cnzz.com",
+        "img.mosflower.cn",
+        "tips.gamevvip.com",
+        "ehwe.yhdtns.com",
+        "xdn.cqqc3.com",
+        "www.jixunkyy.cn",
+        "sp.chemacid.cn",
+        "hm.baidu.com",
+        "s9.cnzz.com",
+        "z6.cnzz.com",
+        "um.cavuc.com",
+        "mav.mavuz.com",
+        "wofwk.aoidf3.com",
+        "z5.cnzz.com",
+        "xc.hubeijieshikj.cn",
+        "tj.tianwenhu.com",
+        "xg.gars57.cn",
+        "k.jinxiuzhilv.com",
+        "cdn.bootcss.com",
+        "ppl.xunzhuo123.com",
+        "xomk.jiangjunmh.top",
+        "img.xunzhuo123.com",
+        "z1.cnzz.com",
+        "s13.cnzz.com",
+        "xg.huataisangao.cn",
+        "z7.cnzz.com",
+        "xg.huataisangao.cn",
+        "z2.cnzz.com",
+        "s96.cnzz.com",
+        "q11.cnzz.com",
+        "thy.dacedsfa.cn",
+        "xg.whsbpw.cn",
+        "s19.cnzz.com",
+        "z8.cnzz.com",
+        "s4.cnzz.com",
+        "f5w.as12df.top",
+        "ae01.alicdn.com",
+        "www.92424.cn",
+        "k.wudejia.com",
+        "vivovip.mmszxc.top",
+        "qiu.xixiqiu.com",
+        "cdnjs.hnfenxun.com",
+        "cms.qdwght.com"
+    ]
+}
